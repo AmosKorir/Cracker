@@ -48,7 +48,7 @@ public class VideoPostAdapter extends RecyclerView.Adapter<VideoPostAdapter.Yout
 
     @Override
     public int getItemCount() {
-        return 0;
+        return datasset.size();
     }
 
     public static class YoutubePostHolder extends RecyclerView.ViewHolder{
